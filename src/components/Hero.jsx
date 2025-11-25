@@ -7,7 +7,7 @@ export default function Hero() {
     >
       <div className="bg-black/50 absolute inset-0"></div>
       <div
-        className="relative z-10 text-cyan-300"
+        className="relative z-10 text-cyan-50"
         data-aos="fade-up"
       >
         <h1 className="text-4xl md:text-6xl font-bold mb-4">

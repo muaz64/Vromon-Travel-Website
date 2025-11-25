@@ -29,7 +29,7 @@ export default function Contact() {
           </div>
 
           {/* Contact Form */}
-          <div className="bg-gray-950 p-8 rounded-xl shadow-md">
+          <div className="bg-gray-800 p-8 rounded-xl shadow-md">
             <h3 className="text-2xl font-semibold text-center mb-6 text-white">Send a Message</h3>
             <form className="space-y-6">
               <div>
@@ -37,7 +37,7 @@ export default function Contact() {
                 <input
                   type="text"
                   placeholder="Your Name"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-white"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-white text-white"
                 />
               </div>
 
@@ -46,7 +46,7 @@ export default function Contact() {
                 <input
                   type="email"
                   placeholder="you@example.com"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-white"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-white text-white"
                 />
               </div>
 
@@ -55,7 +55,7 @@ export default function Contact() {
                 <textarea
                   placeholder="Write your message..."
                   rows="5"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-white"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-white text-white"
                 ></textarea>
               </div>
 
